@@ -1,6 +1,13 @@
 /**
  * Created by joker on 6/16/16.
- */
+
+ Implemenst a "proxy" echo server.
+ A proxy server is a middle-man which gets the request and sends it to the remote server.
+ Afterwards it reads the response and returns it back to the client.
+ Proxy server simply sends the client back what it receives from the server.
+ A sample code is given from the Client-Server Architecture without Proxy server.
+ Change code of Client, Packet and implement Proxy. (no need to change Server)
+ - Client must sent the destination address and Packet to the proxy so that it knows where the packet will be sent.*/
 import java.net.*;
 import java.io.*;
 public class Server{
