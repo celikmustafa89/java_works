@@ -6,8 +6,9 @@ public class Client{
 	public static void main(String args[]){
 		Socket socket = null;
 		int portNumber = 1777;
-		Packet p = new Packet("Hello");
-		String HOST = "www.server.com";
+		int serverPort = 0;
+		Packet p = new Packet("Hello", serverPort);
+		String HOST = "localhost";
 
 		try {
 			socket = new Socket(HOST, portNumber);
