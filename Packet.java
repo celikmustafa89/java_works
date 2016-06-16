@@ -1,7 +1,9 @@
+import java.io.Serializable;
+
 /**
  * Created by joker on 6/16/16.
  */
-public class Packet{
+public class Packet implements Serializable{
 
     public String content;
 
