@@ -7,3 +7,7 @@ public static boolean isSorted(int[] array)
     }
     return true;
 }
+/*
+soruda fonksiyonun static olması özellikle istendiği için fonksiyon adına static yazmamız gerekiyor. 
+Istenmesse yazılmamalı, oraya dikkat et
+*/
